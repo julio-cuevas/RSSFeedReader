@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{D358568A-41BF-4F00-90BE-B0A909AD7BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSFeedReader.Api", "backend\RSSFeedReader.Api\RSSFeedReader.Api.csproj", "{6A17C837-FDBF-444C-AE87-C0D822F76CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{A25B8924-52C1-4A7B-B379-85DD5EA183F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSFeedReader.UI", "frontend\RSSFeedReader.UI\RSSFeedReader.UI.csproj", "{95B89AD2-0A35-473C-81FD-6FE618EB1EAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A17C837-FDBF-444C-AE87-C0D822F76CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A17C837-FDBF-444C-AE87-C0D822F76CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A17C837-FDBF-444C-AE87-C0D822F76CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A17C837-FDBF-444C-AE87-C0D822F76CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B89AD2-0A35-473C-81FD-6FE618EB1EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B89AD2-0A35-473C-81FD-6FE618EB1EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B89AD2-0A35-473C-81FD-6FE618EB1EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B89AD2-0A35-473C-81FD-6FE618EB1EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A17C837-FDBF-444C-AE87-C0D822F76CA7} = {D358568A-41BF-4F00-90BE-B0A909AD7BE8}
+		{95B89AD2-0A35-473C-81FD-6FE618EB1EAD} = {A25B8924-52C1-4A7B-B379-85DD5EA183F8}
+	EndGlobalSection
+EndGlobal
